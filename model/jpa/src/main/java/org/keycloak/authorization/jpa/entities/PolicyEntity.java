@@ -88,7 +88,7 @@ public class PolicyEntity {
     @Column(name = "DECISION_STRATEGY")
     private DecisionStrategy decisionStrategy = DecisionStrategy.UNANIMOUS;
 
-    @Column(name = "LOGIC")
+    @Column(name = "[LOGIC]")
     private Logic logic = Logic.POSITIVE;
 
     @ElementCollection(fetch = FetchType.LAZY)
